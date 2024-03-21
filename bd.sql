@@ -1,3 +1,7 @@
+DROP TABLE IF EXISTS Utilisateur ;
+DROP TABLE IF EXISTS Materiel ;
+DROP TABLE IF EXISTS Reservation ;
+
 CREATE TABLE Utilisateur (
     id_utilisateur INT PRIMARY KEY,
     nom VARCHAR(100),
